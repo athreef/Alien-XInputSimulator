@@ -1,0 +1,60 @@
+{
+   "abstract" : "Perl distribution for XInputSimulator",
+   "author" : [
+      "Ahmad Fatoum <athreef@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4224",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Alien-XInputSimulator",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Alien::CMake" : "0.07",
+            "IO::Socket::SSL" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Alien::Base::ModuleBuild" : "0.046",
+            "Alien::CMake" : "0.07",
+            "Module::Build" : "0"
+         }
+      },
+      "runtime" : {
+         "recommends" : {
+            "IO::Socket::SSL" : "0"
+         },
+         "requires" : {
+            "Alien::Base" : "0.030",
+            "perl" : "5.008"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::Alien" : "0.05",
+            "Test::Alien::CPP" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Alien::XInputSimulator" : {
+         "file" : "lib/Alien/XInputSimulator.pm",
+         "version" : "0.001"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.001",
+   "x_serialization_backend" : "JSON::PP version 2.27400_02"
+}
