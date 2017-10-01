@@ -3,7 +3,7 @@ use warnings;
 package Alien::XInputSimulator;
 
 # ABSTRACT: Perl distribution for XInputSimulator
-our $VERSION = '0.001';
+# VERSION
 
 use parent 'Alien::Base';
 
