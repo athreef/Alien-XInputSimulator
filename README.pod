@@ -6,13 +6,19 @@
 
 Alien::XInputSimulator - Perl distribution for XInputSimulator
 
+=for html <a href="https://travis-ci.org/athreef/Alien-XInputSimulator"><img alt="Build Status" src="https://travis-ci.org/athreef/Alien-XInputSimulator.svg?branch=master" /></a>
+
+=head1 VERSION
+
+version 0.001
+
 =head1 INSTALL
 
     cpan Alien::XInputSimulator
 
 =head1 DESCRIPTION
 
-This Alien module wraps the XInputSimulator C++ library, a cross (X) Platform (Linux/Mac/Win) Simulator for input devices that simulates mouse moves/clicks/scrolls or keyboard keystrokes.
+This Alien module wraps the XInputSimulator C++ library, a cross (X) Platform (Linux/Mac/Win) Simulator for input devices that simulates mouse moves/clicks/scrolls or keyboard keystrokes. It installs both static library for XS use as well as dynamic library for FFI.
 
 =head1 GIT REPOSITORY
 
@@ -33,3 +39,4 @@ Copyright (C) 2017 Ahmad Fatoum
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
+=cut

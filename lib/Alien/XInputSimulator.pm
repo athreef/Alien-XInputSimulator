@@ -21,7 +21,7 @@ Alien::XInputSimulator - Perl distribution for XInputSimulator
 
 =head1 DESCRIPTION
 
-This Alien module wraps the XInputSimulator C++ library, a cross (X) Platform (Linux/Mac/Win) Simulator for input devices that simulates mouse moves/clicks/scrolls or keyboard keystrokes.
+This Alien module wraps the XInputSimulator C++ library, a cross (X) Platform (Linux/Mac/Win) Simulator for input devices that simulates mouse moves/clicks/scrolls or keyboard keystrokes. It installs both static library for XS use as well as dynamic library for FFI.
 
 =cut
 
