@@ -4,7 +4,7 @@ plugin 'PkgConfig' => 'XInputSimulator';
 
 share {
     plugin Download => (
-        url => 'http://github.com/a3f/XInputSimulator/archive/master.tar.gz'
+        url => 'http://github.com/a3f/XInputSimulator/archive/pkg-config-to-share.tar.gz'
     );
 
     plugin Extract => 'tar.gz';
