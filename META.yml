@@ -5,8 +5,7 @@ author:
 build_requires:
   Alien::CMake: '0.07'
   IO::Socket::SSL: '0'
-  Test::Alien: '0.05'
-  Test::Alien::CPP: '0'
+  Test::Alien::CPP: '0.99'
 configure_requires:
   Alien::Base::ModuleBuild: '0.046'
   Alien::CMake: '0.07'

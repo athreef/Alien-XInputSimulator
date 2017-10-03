@@ -38,8 +38,7 @@
       },
       "test" : {
          "requires" : {
-            "Test::Alien" : "0.05",
-            "Test::Alien::CPP" : "0"
+            "Test::Alien::CPP" : "0.99"
          }
       }
    },

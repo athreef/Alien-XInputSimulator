@@ -14,7 +14,7 @@ my $build = Alien::Base::ModuleBuild->new(
         protocol => 'http',
         host     => 'github.com',
         location => '/a3f/XInputSimulator/archive',
-        exact_filename => 'Test-Alien-CPP-Problem.tar.gz',
+        exact_filename => 'master.tar.gz'
     },
     alien_bin_requires => {
         'Alien::CMake' => '0.07',
@@ -33,8 +33,7 @@ my $build = Alien::Base::ModuleBuild->new(
         'IO::Socket::SSL' => 0,
     },
     test_requires => {
-        'Test::Alien'         => '0.05',
-        'Test::Alien::CPP'    => 0,
+        'Test::Alien::CPP'    => '0.99',
     },
     requires => {
         'perl' => '5.008',
